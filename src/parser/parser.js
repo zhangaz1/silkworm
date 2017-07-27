@@ -3,6 +3,11 @@
 
 module.exports = parser;
 
-function parser(){
-    return {};
+function parser(express){
+    express = express.trim();
+
+    if(express === ''){
+        return {};
+    }
+
 }
