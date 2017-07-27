@@ -1,5 +1,8 @@
-let add = require('./add');
+'use strict';
+
+
+let parser = require('./parser/parser.js');
 
 module.exports = {
-	add,
+    parser,
 };
